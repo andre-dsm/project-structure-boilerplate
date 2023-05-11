@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { throttle } from 'lodash';
+import { throttle } from '~/services/utils/lodash';
 
 import { getMediaMatch } from './logic';
 
