@@ -1,4 +1,4 @@
-import { throttle, isEqual } from 'lodash';
+import { throttle, isEqual } from 'lodash-es';
 
 export { throttle };
 export { isEqual };
