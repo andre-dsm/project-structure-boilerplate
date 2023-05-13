@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useLocation, useResolvedPath } from 'react-router-dom';
-import { isEqual } from '~/services/utils/lodash';
+import { isEqual } from '~/services/utils/validation';
 
 const useIsPathSelected = (path: string) => {
   const { pathname } = useResolvedPath(path);
